@@ -2,10 +2,10 @@
 
 :root {
     --cor-de-fundo: #c9d7e8;
-    --rosa:#250181;
+    --azul: #250181;
     --branco: #FFFFFF;
     --botao-ativo: #10003f;
-    --botao-inativo:#436896;
+    --botao-inativo: #436896;
     --texto-fundo: #94b2d6;
 }
 
@@ -61,45 +61,70 @@ body {
     display: block;
 }
 
-.botao.ativo{
+.botao.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid #34e4fc;
     font-weight: bold;
 }
 
-.abas-textos{
+.abas-textos {
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
 
-.aba-conteudo.ativo{
+.aba-conteudo.ativo {
     display: block;
 }
 
-.aba-conteudo{
+.aba-conteudo {
     display: none;
 }
 
-.aba-conteudo-titulo-principal{
+.aba-conteudo-titulo-principal {
     font-size: 28px;
     text-align: center;
 }
 
-.aba-conteudo-titulo-secundario{
+.aba-conteudo-titulo-secundario {
     text-align: center;
     color: #290d90;
     text-transform: uppercase;
 }
 
+.contador {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito {
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero {
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto {
+    color: #250181;
+    font-size: 20px;
+    margin: 0;
+}
+
 @media screen and (min-width: 768px) {
     .botoes {
-      display: flex;
+        display: flex;
     }
-    .botao:first-child{
-      border-radius: 40px 0 0 0;
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
     }
-    .botao:last-child{
-      border-radius: 0 40px 0 0;
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
     }
-  }
+}
