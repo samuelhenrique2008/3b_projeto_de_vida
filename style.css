@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #c9d7e8;
-    --rosa:#EF0B70;
+    --rosa:#250181;
     --branco: #FFFFFF;
     --botao-ativo: #10003f;
     --botao-inativo:#436896;
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid #EF0B70;
+    border-bottom: 4px solid #34e4fc;
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: #C2114A;
+    color: #290d90;
     text-transform: uppercase;
 }
 
